@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932F93B1275FDDC00006047E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93B0275FDDC00006047E /* AppDelegate.swift */; };
+		932F93B3275FDDC00006047E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93B2275FDDC00006047E /* SceneDelegate.swift */; };
+		932F93B5275FDDC00006047E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93B4275FDDC00006047E /* ViewController.swift */; };
+		932F93B8275FDDC00006047E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932F93B6275FDDC00006047E /* Main.storyboard */; };
+		932F93BA275FDDC00006047E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932F93B9275FDDC00006047E /* Assets.xcassets */; };
+		932F93BD275FDDC00006047E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932F93BB275FDDC00006047E /* LaunchScreen.storyboard */; };
+		932F93C8275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93C7275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift */; };
+		932F93D2275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93D1275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift */; };
+		932F93D4275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93D3275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		932F93C4275FDDC10006047E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932F93A5275FDDC00006047E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932F93AC275FDDC00006047E;
+			remoteInfo = "2021 - Navigation-Controller-AppleBook";
+		};
+		932F93CE275FDDC10006047E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932F93A5275FDDC00006047E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932F93AC275FDDC00006047E;
+			remoteInfo = "2021 - Navigation-Controller-AppleBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		932F93AD275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2021 - Navigation-Controller-AppleBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		932F93B0275FDDC00006047E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		932F93B2275FDDC00006047E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		932F93B4275FDDC00006047E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		932F93B7275FDDC00006047E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		932F93B9275FDDC00006047E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932F93BC275FDDC00006047E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		932F93BE275FDDC00006047E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932F93C3275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2021 - Navigation-Controller-AppleBookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		932F93C7275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_021___Navigation_Controller_AppleBookTests.swift"; sourceTree = "<group>"; };
+		932F93CD275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2021 - Navigation-Controller-AppleBookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		932F93D1275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_021___Navigation_Controller_AppleBookUITests.swift"; sourceTree = "<group>"; };
+		932F93D3275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_021___Navigation_Controller_AppleBookUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932F93AA275FDDC00006047E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932F93C0275FDDC10006047E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932F93CA275FDDC10006047E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932F93A4275FDDC00006047E = {
+			isa = PBXGroup;
+			children = (
+				932F93AF275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook */,
+				932F93C6275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests */,
+				932F93D0275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests */,
+				932F93AE275FDDC00006047E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932F93AE275FDDC00006047E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932F93AD275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook.app */,
+				932F93C3275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests.xctest */,
+				932F93CD275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932F93AF275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook */ = {
+			isa = PBXGroup;
+			children = (
+				932F93B0275FDDC00006047E /* AppDelegate.swift */,
+				932F93B2275FDDC00006047E /* SceneDelegate.swift */,
+				932F93B4275FDDC00006047E /* ViewController.swift */,
+				932F93B6275FDDC00006047E /* Main.storyboard */,
+				932F93B9275FDDC00006047E /* Assets.xcassets */,
+				932F93BB275FDDC00006047E /* LaunchScreen.storyboard */,
+				932F93BE275FDDC00006047E /* Info.plist */,
+			);
+			path = "2021 - Navigation-Controller-AppleBook";
+			sourceTree = "<group>";
+		};
+		932F93C6275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				932F93C7275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift */,
+			);
+			path = "2021 - Navigation-Controller-AppleBookTests";
+			sourceTree = "<group>";
+		};
+		932F93D0275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				932F93D1275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift */,
+				932F93D3275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift */,
+			);
+			path = "2021 - Navigation-Controller-AppleBookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932F93AC275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932F93D7275FDDC10006047E /* Build configuration list for PBXNativeTarget "2021 - Navigation-Controller-AppleBook" */;
+			buildPhases = (
+				932F93A9275FDDC00006047E /* Sources */,
+				932F93AA275FDDC00006047E /* Frameworks */,
+				932F93AB275FDDC00006047E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2021 - Navigation-Controller-AppleBook";
+			productName = "2021 - Navigation-Controller-AppleBook";
+			productReference = 932F93AD275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		932F93C2275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932F93DA275FDDC10006047E /* Build configuration list for PBXNativeTarget "2021 - Navigation-Controller-AppleBookTests" */;
+			buildPhases = (
+				932F93BF275FDDC10006047E /* Sources */,
+				932F93C0275FDDC10006047E /* Frameworks */,
+				932F93C1275FDDC10006047E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932F93C5275FDDC10006047E /* PBXTargetDependency */,
+			);
+			name = "2021 - Navigation-Controller-AppleBookTests";
+			productName = "2021 - Navigation-Controller-AppleBookTests";
+			productReference = 932F93C3275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		932F93CC275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932F93DD275FDDC10006047E /* Build configuration list for PBXNativeTarget "2021 - Navigation-Controller-AppleBookUITests" */;
+			buildPhases = (
+				932F93C9275FDDC10006047E /* Sources */,
+				932F93CA275FDDC10006047E /* Frameworks */,
+				932F93CB275FDDC10006047E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932F93CF275FDDC10006047E /* PBXTargetDependency */,
+			);
+			name = "2021 - Navigation-Controller-AppleBookUITests";
+			productName = "2021 - Navigation-Controller-AppleBookUITests";
+			productReference = 932F93CD275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932F93A5275FDDC00006047E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					932F93AC275FDDC00006047E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					932F93C2275FDDC10006047E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 932F93AC275FDDC00006047E;
+					};
+					932F93CC275FDDC10006047E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 932F93AC275FDDC00006047E;
+					};
+				};
+			};
+			buildConfigurationList = 932F93A8275FDDC00006047E /* Build configuration list for PBXProject "2021 - Navigation-Controller-AppleBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932F93A4275FDDC00006047E;
+			productRefGroup = 932F93AE275FDDC00006047E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932F93AC275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook */,
+				932F93C2275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests */,
+				932F93CC275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932F93AB275FDDC00006047E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932F93BD275FDDC00006047E /* LaunchScreen.storyboard in Resources */,
+				932F93BA275FDDC00006047E /* Assets.xcassets in Resources */,
+				932F93B8275FDDC00006047E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932F93C1275FDDC10006047E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932F93CB275FDDC10006047E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932F93A9275FDDC00006047E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932F93B5275FDDC00006047E /* ViewController.swift in Sources */,
+				932F93B1275FDDC00006047E /* AppDelegate.swift in Sources */,
+				932F93B3275FDDC00006047E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932F93BF275FDDC10006047E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932F93C8275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932F93C9275FDDC10006047E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932F93D4275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift in Sources */,
+				932F93D2275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		932F93C5275FDDC10006047E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932F93AC275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook */;
+			targetProxy = 932F93C4275FDDC10006047E /* PBXContainerItemProxy */;
+		};
+		932F93CF275FDDC10006047E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932F93AC275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook */;
+			targetProxy = 932F93CE275FDDC10006047E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		932F93B6275FDDC00006047E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932F93B7275FDDC00006047E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		932F93BB275FDDC00006047E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932F93BC275FDDC00006047E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932F93D5275FDDC10006047E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932F93D6275FDDC10006047E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932F93D8275FDDC10006047E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BVJ5R4NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2021 - Navigation-Controller-AppleBook/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021---Navigation-Controller-AppleBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		932F93D9275FDDC10006047E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BVJ5R4NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2021 - Navigation-Controller-AppleBook/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021---Navigation-Controller-AppleBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		932F93DB275FDDC10006047E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BVJ5R4NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021---Navigation-Controller-AppleBookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2021 - Navigation-Controller-AppleBook.app/2021 - Navigation-Controller-AppleBook";
+			};
+			name = Debug;
+		};
+		932F93DC275FDDC10006047E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BVJ5R4NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021---Navigation-Controller-AppleBookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2021 - Navigation-Controller-AppleBook.app/2021 - Navigation-Controller-AppleBook";
+			};
+			name = Release;
+		};
+		932F93DE275FDDC10006047E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BVJ5R4NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021---Navigation-Controller-AppleBookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2021 - Navigation-Controller-AppleBook";
+			};
+			name = Debug;
+		};
+		932F93DF275FDDC10006047E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BVJ5R4NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021---Navigation-Controller-AppleBookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2021 - Navigation-Controller-AppleBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932F93A8275FDDC00006047E /* Build configuration list for PBXProject "2021 - Navigation-Controller-AppleBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932F93D5275FDDC10006047E /* Debug */,
+				932F93D6275FDDC10006047E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932F93D7275FDDC10006047E /* Build configuration list for PBXNativeTarget "2021 - Navigation-Controller-AppleBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932F93D8275FDDC10006047E /* Debug */,
+				932F93D9275FDDC10006047E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932F93DA275FDDC10006047E /* Build configuration list for PBXNativeTarget "2021 - Navigation-Controller-AppleBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932F93DB275FDDC10006047E /* Debug */,
+				932F93DC275FDDC10006047E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932F93DD275FDDC10006047E /* Build configuration list for PBXNativeTarget "2021 - Navigation-Controller-AppleBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932F93DE275FDDC10006047E /* Debug */,
+				932F93DF275FDDC10006047E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932F93A5275FDDC00006047E /* Project object */;
+}
