@@ -13,7 +13,6 @@
 		932F93B8275FDDC00006047E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932F93B6275FDDC00006047E /* Main.storyboard */; };
 		932F93BA275FDDC00006047E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932F93B9275FDDC00006047E /* Assets.xcassets */; };
 		932F93BD275FDDC00006047E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932F93BB275FDDC00006047E /* LaunchScreen.storyboard */; };
-		932F93C8275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93C7275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift */; };
 		932F93D2275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93D1275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift */; };
 		932F93D4275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F93D3275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		932F93BC275FDDC00006047E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		932F93BE275FDDC00006047E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		932F93C3275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2021 - Navigation-Controller-AppleBookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		932F93C7275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_021___Navigation_Controller_AppleBookTests.swift"; sourceTree = "<group>"; };
 		932F93CD275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2021 - Navigation-Controller-AppleBookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		932F93D1275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_021___Navigation_Controller_AppleBookUITests.swift"; sourceTree = "<group>"; };
 		932F93D3275FDDC10006047E /* _021___Navigation_Controller_AppleBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_021___Navigation_Controller_AppleBookUITestsLaunchTests.swift"; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				932F93AF275FDDC00006047E /* 2021 - Navigation-Controller-AppleBook */,
-				932F93C6275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests */,
 				932F93D0275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests */,
 				932F93AE275FDDC00006047E /* Products */,
 			);
@@ -108,14 +105,6 @@
 				932F93BE275FDDC00006047E /* Info.plist */,
 			);
 			path = "2021 - Navigation-Controller-AppleBook";
-			sourceTree = "<group>";
-		};
-		932F93C6275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookTests */ = {
-			isa = PBXGroup;
-			children = (
-				932F93C7275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift */,
-			);
-			path = "2021 - Navigation-Controller-AppleBookTests";
 			sourceTree = "<group>";
 		};
 		932F93D0275FDDC10006047E /* 2021 - Navigation-Controller-AppleBookUITests */ = {
@@ -268,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				932F93C8275FDDC10006047E /* _021___Navigation_Controller_AppleBookTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
